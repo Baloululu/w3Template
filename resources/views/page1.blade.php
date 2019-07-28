@@ -4,7 +4,37 @@
 
 @section('content')
 
-    <div class="w3-container">
+    <div class="w3-container w3-auto w3-justify" style="padding-top: 50px">
+
+        <h1>Gallery</h1>
+
+        <div class="w3-row-padding w3-section w3-stretch">
+            <div class="w3-third">
+                <div class="w3-card">
+                    <img src="images/common/oboe.jpg" alt="Oboe" class="width100">
+                    <div class="w3-container">
+                        <h4>Oboe</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-third">
+                <div class="w3-card">
+                    <img src="images/common/flute.jpg" alt="Flute" class="width100">
+                    <div class="w3-container">
+                        <h4>Flute</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-third">
+                <div class="w3-card">
+                    <img src="images/common/saxophone.jpg" alt="Soxo" class="width100">
+                    <div class="w3-container">
+                        <h4>Saxophone</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consectetur culpa explicabo facere hic
             pariatur! Aperiam commodi doloribus iste quisquam reiciendis rerum sint! At exercitationem, fugiat iste modi
             provident quisquam!</p>
@@ -22,7 +52,7 @@
             temporibus vitae.</p>
 
         <div class="w3-center">
-            <img class="w3-image w3-card w3-round" src="{{ mix('images/guitar.jpg') }}" alt="">
+            <img class="w3-image w3-card w3-round" src="images/common/guitar.jpg" alt="">
         </div>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dicta enim eum non obcaecati quod unde!

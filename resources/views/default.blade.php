@@ -12,11 +12,11 @@
 <body class="w3-theme-light">
 
 <nav id="nav" class="w3-top w3-theme-dark">
-    <div class="w3-bar">
-        <a href="/" class="w3-bar-item w3-button navItem @yield('home')"><i class="fas fa-home"></i>&nbsp;Home</a>
-        <a href="/page1" class="w3-bar-item w3-button navItem @yield('page1')"><i class="fas fa-image"></i>&nbsp;Page1</a>
-        <a href="#" class="w3-bar-item w3-button navItem">Page2</a>
-        <a href="#" class="w3-bar-item w3-button navItem">Page3</a>
+    <div class="w3-bar w3-large">
+        <a href="{{ route("home") }}" class="w3-bar-item w3-button navItem @yield('home')"><i class="fas fa-home"></i>&nbsp;Home</a>
+        <a href="{{ route("page1") }}" class="w3-bar-item w3-button navItem @yield('page1')"><i class="fas fa-image"></i>&nbsp;Page1</a>
+        <a href="#" class="w3-bar-item w3-button w3-disabled navItem">Page2</a>
+        <a href="#" class="w3-bar-item w3-button w3-disabled navItem">Page3</a>
     </div>
 </nav>
 

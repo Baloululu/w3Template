@@ -13,7 +13,7 @@ const mix = require('laravel-mix');
 
 mix.js(['resources/js/app.js', 'resources/js/modernizr-custom.js'], 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
-    .copy('resources/images/guitar.jpg', 'public/images/guitar.jpg');
+    .copyDirectory('resources/images/common', 'public/images/common');
 
 mix.browserSync({
     proxy: 'localhost:8000'
