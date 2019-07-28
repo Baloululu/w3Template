@@ -21,7 +21,11 @@ mix.browserSync({
 if (mix.inProduction()) {
     mix.version();
     mix.options({
-        purifyCss: true
+        purifyCss: {
+            purifyOptions: {
+                whitelist: ["is-animating"]
+            }
+        }
     });
 }
 
