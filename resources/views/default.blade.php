@@ -13,7 +13,7 @@
 
 <nav id="nav" class="w3-top w3-theme-dark">
     <div class="w3-bar">
-        <a href="/" class="w3-bar-item w3-button navItem @yield('home')"><i class="fa fa-home"></i>&nbsp;Home</a>
+        <a href="/" class="w3-bar-item w3-button navItem @yield('home')"><i class="fab fa-home"></i>&nbsp;Home</a>
         <a href="/page1" class="w3-bar-item w3-button navItem @yield('page1')">Page1</a>
         <a href="#" class="w3-bar-item w3-button navItem">Page2</a>
         <a href="#" class="w3-bar-item w3-button navItem">Page3</a>
