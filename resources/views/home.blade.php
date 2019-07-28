@@ -3,11 +3,14 @@
 @section('home', 'navActive')
 
 @section('content')
-    <div class="w3-container w3-center">
-        <h1>Test w3School.CSS</h1>
+
+    <div class="fond1 w3-display-container">
+        <div class="w3-display-middle w3-padding w3-theme w3-round">
+            <h1>Test w3School.CSS with parallax</h1>
+        </div>
     </div>
 
-    <div class="w3-container w3-justify">
+    <div class="w3-container w3-auto w3-justify">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi dolorem dolores maiores nam
             quidem sed. Amet autem dignissimos eaque eligendi illum, ipsam itaque iure laborum libero nobis, quas
             quod!</p>
@@ -26,6 +29,15 @@
         <p>Animi consequuntur cumque error explicabo harum, voluptates! Aut beatae consequatur cumque doloribus ea
             illum ipsa labore libero magnam nam, nisi nulla officiis praesentium rem tempore veniam vero vitae
             voluptatem voluptatum.</p>
+    </div>
+
+    <div class="fond2 w3-display-container">
+        <div class="w3-display-middle w3-padding w3-theme w3-round">
+            <h1>An other category</h1>
+        </div>
+    </div>
+
+    <div class="w3-container w3-auto w3-justify">
         <p>Dolores esse ex obcaecati, optio similique totam. A ab ad alias assumenda autem cumque distinctio eius
             eveniet itaque iure nisi nobis optio, perspiciatis repellat repudiandae sit soluta ullam unde
             voluptatum.</p>

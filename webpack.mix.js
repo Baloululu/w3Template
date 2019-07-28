@@ -11,8 +11,9 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+mix.js(['resources/js/app.js', 'resources/js/modernizr-custom.js'], 'public/js')
+    .sass('resources/sass/app.scss', 'public/css')
+    .copy('resources/images/guitar.jpg', 'public/images/guitar.jpg');
 
 mix.browserSync({
     proxy: 'localhost:8000'
@@ -23,7 +24,7 @@ if (mix.inProduction()) {
     mix.options({
         purifyCss: {
             purifyOptions: {
-                whitelist: ["is-animating"]
+                whitelist: ["is-animating", "webp", "no-webp"]
             }
         }
     });

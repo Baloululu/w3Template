@@ -22,7 +22,7 @@
             temporibus vitae.</p>
 
         <div class="w3-center">
-            <img class="w3-image w3-card w3-round" src="http://lorempixel.com/400/300/nature" alt="">
+            <img class="w3-image w3-card w3-round" src="{{ mix('images/guitar.jpg') }}" alt="">
         </div>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dicta enim eum non obcaecati quod unde!
